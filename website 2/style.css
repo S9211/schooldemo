@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+*
+	{
+	margin:0px;
+	padding:0px;
+	}
+
+body
+	{
+	margin:0px;
+	padding:0px;
+	background-color:#e2e2e2;
+	}
+.topBar
+		{
+		 background-color: #FFFFFF;
+   		 height: 205px;
+    		 padding-top: 0px;
+		}
+.topbarMain
+	{
+	width:985px;
+	margin:auto;
+	}
+.logo
+		{
+		width:100%;
+		height:205px;
+		background-image:url(images/logo.png);
+		display:inline-block;
+		}
+.topLinks
+	{
+	width:260px;
+	background-color:#FF99FF;
+	float:right;
+	background-image:url(images/topNvigation.png);
+	border-radius:5px;
+	width:257px;
+	height:36px;
+	}		
+
+html body div.topBar div.topbarMain ul.topLinks li
+	{
+	 color: #FFFFFF;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 7px;
+	}	
+html body div.topBar div.topbarMain ul.topLinks li a
+	{
+	color:#fff;
+	text-decoration:none;
+	}	
+.outer
+	{
+	width:980px;
+	background-color:# background-color: #E2E2E2;;
+	margin:auto;
+	
+	}	
+div ul.menuBar
+	{
+		background: #ffa240; /* Old browsers */
+		background: -moz-linear-gradient(top, #3c8057 1%, #6dcd33 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffa240), color-stop(100%,#ff7603)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ffa240 1%,#ff7603 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ffa240 1%,#ff7603 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ffa240 1%,#ff7603 100%); /* IE10+ */
+		background: li	near-gradient(top, #ffa240 1%,#ff7603 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa240', endColorstr='#ff7603',GradientType=0 ); /* IE6-9 */
+		height:32px;
+		border-radius:5px;
+		padding-left:40px;
+	
+		 padding-top: 12px;
+	
+	}	
+ div.outer ul.menuBar li
+	{
+	display:inline-block;
+	 margin-right: 15px;
+	 color: #FFFFFF;
+	}	
+div.outer ul.menuBar li a
+	{
+	color:#fff;
+	text-decoration:none;
+	}	
+.content
+	{
+	width:980px;
+	 margin-top: 7px;
+	    display: inline;
+		display: inline-block;
+	  
+	}	
+div.content div.leftsideBar
+	{
+	display:inline-block;
+	width:240px;
+	
+	-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+	}	
+div.leftsideBar ul.CategoriesMain li.CategoriesBg
+	{
+	background-image:url(images/headingImg.png);
+	background-repeat:no-repeat;
+	width:241px;
+	height:36px;
+	
+	}	
+ div.leftsideBar ul.CategoriesMain li a
+	{
+	text-decoration:none;
+	padding-left: 15px;
+	}
+ div.content div.leftsideBar ul.CategoriesMain li
+	{
+	list-style:none;
+	  padding-bottom: 5px;
+    padding-top: 5px;
+	border-bottom: 1px dotted #a0a0a0;
+	-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+	}	
+div.content div.leftsideBar ul.CategoriesMain li.CategoriesBg a
+	{
+	color:#fd9105;
+	font-size:20px;
+	padding-left:10px;
+	}		
+ div.leftsideBar ul.CategoriesMain li a
+	{
+	color:#a0a0a0;
+	}
+.selected
+	{
+	color:#fd9105;
+	}	
+.photoGallery
+	{
+	width:240px;
+	height:183px;
+	-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+	 
+	}	
+.gradiant
+	{
+	background: #fcfde6; /* Old browsers */
+background: -moz-linear-gradient(top, #fcfde6 0%, #dce0c7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfde6), color-stop(100%,#dce0c7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fcfde6 0%,#dce0c7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fcfde6 0%,#dce0c7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fcfde6 0%,#dce0c7 100%); /* IE10+ */
+background: linear-gradient(top, #fcfde6 0%,#dce0c7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfde6', endColorstr='#dce0c7',GradientType=0 ); /* IE6-9 */
+	}
+div.outer div.content div.leftsideBar ul.CategoriesMain li	
+	{
+	 color:#fd9105;
+	   font-size:14px;
+	     
+	}	
+
+ div.content div.leftsideBar div.photoGallery span.gradiant
+	{
+	  
+	   color:#fd9105;
+	   font-size:20px;
+	     	background-image:url(images/headingImg.png);
+	}	
+
+ div.leftsideBar ul.CategoriesMain li.CategoriesBg a
+	{
+	color:#fd9105;
+	}	
+ div.leftsideBar ul.CategoriesMain
+	{
+	
+	margin-bottom:7px;
+	background-color: #FFFFFF;
+	height:290px;
+	border-bottom: 1px dotted #a0a0a0;
+	-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+	}	
+.banner
+	{
+	width:732px;
+	height:291px;
+	background-image:url(images/banner.png);
+	 
+	}
+div.content div.rightsideBar
+	{
+	display:inline-block;
+	vertical-align:top;
+	width:730px;
+	
+	margin-bottom:20px;
+	 margin-left: 4px;
+	
+
+	}	
+div.content div.rightsideBar div.descriptionMain
+	{
+	background-color:#fff;
+	border-radius:5px;
+	margin-top:6px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:16px;
+	text-align:justify;
+	}
+div.content div.rightsideBar div.descriptionMain p.description
+	{
+	font-size:14px;
+	font-family:Trebuchet MS;
+	color:#7f7f7f;
+	}		
+div.outer div.footer
+	{
+	background-color:#fd9105;
+	height:45px;
+	}	
+div.footer span.footerTxtLeft
+	{
+	 color: #7F7F7F;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    margin-top: 15px;
+	   margin-bottom: 20px;
+	}	
+div.footer span.footerTxtright
+	{
+	float:right;
+	color:#7f7f7f;
+	  margin-top: 15px;
+	   font-family: Trebuchet MS;
+    font-size: 14px;
+	}
+ div.outer div.footer span.footerTxtright a
+	{
+	color:#4f2515;
+	}		
+div.content div.rightsideBar div.banner h1
+	{
+	font-size:66px;
+	color:#591d02;
+	text-align:center;
+	 padding-top: 45px;
+	}
+ div.content div.rightsideBar div.banner h2
+	{
+	font-size:40px;
+	color:#591d02;
+	text-align:center;
+	}	
+div.content div.leftsideBar ul.CategoriesMain li.CategoriesBg:first:child
+		{
+		border:none;
+		}
+div.content div.leftsideBar div.photoGallery div.PhotoGalaryBg		
+	{
+	  
+	   color:#fd9105;
+	   width:241px;
+	   height:36px;
+	   font-size:20px;
+	   padding-left: 10px;
+	     	background-image:url(images/headingImg.png);
+			background-repeat:no-repeat;
+	}		
+div.content div.leftsideBar div.photoGallery div.thumb002 img
+			{
+			margin-bottom:7px;
+			}
+div.leftsideBar ul.CategoriesMain li.CategoriesBg:first-child
+				{
+				border:none;
+				}
+		
+h3,h4
+{
+ text-shadow: 0 0 1px #FF0000, 0 0 3px green;
+text-transform:uppercase;
+}
+
+
+
+
+
